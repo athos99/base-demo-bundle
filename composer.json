@@ -1,0 +1,21 @@
+{
+    "name": "athos99/base-demo-bundle",
+    "description": "Demonstration of a basic bundle",
+    "type": "symfony-bundle",
+    "require": {
+        "php": ">=7.4",
+        "symfony/symfony": ">=..6.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Athos99\\BaseDemoBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Athos99"
+        }
+    ],
+    "minimum-stability": "stable"
+}

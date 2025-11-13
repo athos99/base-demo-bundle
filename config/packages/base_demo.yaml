@@ -1,0 +1,6 @@
+# configuration setting for base demo bundle
+base_demo:
+  param1: value1
+  param2: value2
+  
+  
