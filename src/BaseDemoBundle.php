@@ -13,14 +13,13 @@ class BaseDemoBundle extends AbstractBundle
     public function loadExtension(array $config, ContainerConfigurator $container, ContainerBuilder $builder): void
     {
       $services = $container->services();
-      $services->set('athos99.base_demo', BaseDemo::class);
-      $builder->getDefinition( 'athos99.base_demo')
+      $services->set( BaseDemo::class);
+      $builder->getDefinition( BaseDemo::class)
             ->setArgument('$param1', $config['param1'] )
             ->setArgument('$param2', $config['param2'] )
-            ->setArgument('$param2', $config['param3'] )
+            ->setArgument('$param3', $config['param3'] )
             ;
     }
-
 
     public function configure(DefinitionConfigurator $definition): void
     {
