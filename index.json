@@ -1,0 +1,14 @@
+{
+    "recipes": {
+        "athos99/private-bundle": [
+            "1.0"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/athos99/base-demo-bundle",
+        "origin_template": "{package}:{version}@github.com/athos99/base-demo-bundle:main",
+        "recipe_template": "https://api.github.com/repos/athos99/base-demo-bundle/contents/{package_dotted}.{version}.json"
+    }
+}
