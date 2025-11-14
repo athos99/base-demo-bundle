@@ -1,5 +1,6 @@
 {
     "name": "athos99/base-demo-bundle",
+    "version" : "1.0.0",
     "description": "Demonstration of a basic bundle",
     "type": "symfony-bundle",
     "require": {
@@ -9,6 +10,7 @@
         "symfony/config" : ">=6.4"
     },
     "license": "MIT",
+    "keywords": ["bundle", "demo", "symfony"],
     "autoload": {
         "psr-4": {
             "Athos99\\BaseDemoBundle\\": "src/"
