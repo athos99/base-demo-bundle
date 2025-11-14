@@ -1,0 +1,9 @@
+<bg=blue;fg=white>              </>
+<bg=blue;fg=white> Cool, you just installed a new bundle </>
+<bg=blue;fg=white>              </>
+
+  * <fg=blue>Run</> your application:
+    - The service Athos99\BaseDemo is available
+    - The yaml comfig/package/base_demo is created
+  
+  * <fg=blue>Read</>Look the vendor/athos99/base_demo/READ.me</>
