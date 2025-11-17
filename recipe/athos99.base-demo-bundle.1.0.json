@@ -1,0 +1,24 @@
+{
+    "manifests": {
+        "athos99/recipe": {
+            "manifest": {
+                "bundles": {
+                    "Athos99\\BaseDemoBundle\\BaseDemoBundle": [
+                        "all"
+                    ]
+                }
+            },
+            "files": {
+                "config/packages/acme_private.yaml": {
+                    "contents": [
+                        "acme_private:",
+                        "    encode: true",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
+            "ref": "7405f3af1312d1f9121a77d4dddef636c6c7ff00"
+        }
+    }
+}
