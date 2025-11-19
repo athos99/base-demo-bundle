@@ -9,7 +9,7 @@
                 },
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%/",
-                    "1/config/": "%CONFIG_DIR%/1/"
+                    "1.0/config/": "%CONFIG_DIR%/1.0/"
                 },
                 "post-install-output": [
                     "<bg=blue;fg=white>              </>",
