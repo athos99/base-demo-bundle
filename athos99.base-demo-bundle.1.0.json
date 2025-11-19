@@ -4,7 +4,7 @@
             "manifest": {
                 "bundles": {
                     "Athos99\\BaseDemoBundle\\BaseDemoBundle": [
-                        "all"
+                        "dev"
                     ]
                 }
             },
