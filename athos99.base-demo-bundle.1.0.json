@@ -7,8 +7,13 @@
                         "dev"
                     ]
                 },
+                "copy-from-recipe": {
+                    "1.0/config/": "%CONFIG_DIR%/r1/",
+                    "config/": "%CONFIG_DIR%/r0/"
+                },
+
                 "copy-from-package": {
-                    "1.0/config/": "%CONFIG_DIR%/"
+                    "1.0/config/": "%CONFIG_DIR%/p/"
                 },
                 "post-install-output": [
                     "<bg=blue;fg=white>              </>",
@@ -30,7 +35,7 @@
                     "executable": false
                 }
             },
-            "ref": "7409f3bf1317d1a9321a7744dbaef636c6c7ff00"
+            "ref": "1409f3bf1317d1a9321a7744dbaef636c6c7ff00"
         }
     }
 }
