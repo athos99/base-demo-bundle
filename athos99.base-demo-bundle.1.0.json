@@ -8,7 +8,8 @@
                     ]
                 },
                 "copy-from-recipe": {
-                    "config/": "%CONFIG_DIR%/"
+                    "config/": "%CONFIG_DIR%/r/",
+                    "1.0/config/": "%CONFIG_DIR%/r1/"
                 },
 
                 "copy-from-package": {
@@ -32,7 +33,7 @@
                     "executable": false
                 }
             },
-            "ref": "1409f3bf1317d1a9321a7744dbaef636c6c7ff00"
+            "ref": "1409f3bf1317d1a9321a7744dbaeff36c6c7ff00"
         }
     }
 }
