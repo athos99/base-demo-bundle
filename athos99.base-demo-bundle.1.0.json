@@ -8,7 +8,8 @@
                     ]
                 },
                 "copy-from-recipe": {
-                    "config/": "%CONFIG_DIR%/"
+                    "config/": "%CONFIG_DIR%/",
+                    "1/config/": "%CONFIG_DIR%/1/"
                 },
                 "post-install-output": [
                     "<bg=blue;fg=white>              </>",
@@ -23,14 +24,14 @@
             "files": {
                 "config/packages/acme_private.yaml": {
                     "contents": [
-                        "acme_private:",
-                        "    encode: true",
+                        "#acme_private:",
+                        "#    encode: true",
                         ""
                     ],
                     "executable": false
                 }
             },
-            "ref": "7409f3bf1312d1a9121a7744dadef636c6c7ff00"
+            "ref": "7409f3bf1312d1a9121a7744dbdef636c6c7ff00"
         }
     }
 }
