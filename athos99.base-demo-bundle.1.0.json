@@ -9,10 +9,10 @@
                 },
                 "copy-from-recipe": {
                     "config/": "%CONFIG_DIR%/",
-                    "1.0/config/": "%CONFIG_DIR%/1.0/"
+                    "1.0/config/": "%CONFIG_DIR%/"
                 },
                 "copy-from-package": {
-                    "1.0/config/": "%CONFIG_DIR%/"
+                    "1.0/config/": "%CONFIG_DIR%/x/"
                 },
                 "post-install-output": [
                     "<bg=blue;fg=white>              </>",
@@ -34,7 +34,7 @@
                     "executable": false
                 }
             },
-            "ref": "7409f3bf1312d1a9121a7744dbaef636c6c7ff00"
+            "ref": "7409f3bf1317d1a9121a7744dbaef636c6c7ff00"
         }
     }
 }
