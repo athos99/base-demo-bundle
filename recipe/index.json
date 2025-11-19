@@ -1,14 +1,17 @@
 {
+    "aliases": [],
     "recipes": {
         "athos99/base-demo-bundle": [
-            "1.0.0"
+            "1.0"
         ]
     },
+    "versions": [],
     "branch": "main",
-    "is_contrib": false,
+    "is_contrib": true,
     "_links": {
-        "repository": "github.com/athos99/recipe",
-        "origin_template": "{package}:{version}@github.com/athos99/base-demo-bundle:main",
-        "recipe_template": "https://raw.githubusercontent.com/athos99/base-demo-bundle/refs/heads/main/recipe/{package_dotted}.{version}.json"
+        "repository": "github.com/athos99/base-demo-bundle",
+        "origin_template": "{package}:{version}@github.com/symfony/basedemo-bunlde:main",
+        "recipe_template": "https://raw.githubusercontent.com/athos99/base-demo-bundle/main/recipe/recipe/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
     }
 }
