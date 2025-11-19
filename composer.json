@@ -1,6 +1,6 @@
 {
     "name": "athos99/base-demo-bundle",
-    "version" : "1.0.0",
+    "version" : "1.0",
     "description": "Demonstration of a basic bundle",
     "type": "symfony-bundle",
     "require": {
