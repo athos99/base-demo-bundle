@@ -1,14 +1,14 @@
 {
     "recipes": {
-        "athos99/recipe": [
+        "athos99/base-demo-bundle": [
             "1.0"
         ]
     },
     "branch": "main",
-    "is_contrib": true,
+    "is_contrib": false,
     "_links": {
         "repository": "github.com/athos99/recipe",
-        "origin_template": "{package}:{version}@github.com/athos99/athos99:main",
-        "recipe_template": "https://api.github.com/repos/athos99/recipe/contents/{package_dotted}.{version}.json"
+        "origin_template": "{package}:{version}@github.com/athos99/base-demo-bundle:main",
+        "recipe_template": "https://api.github.com/repos/athos99/base-demo-bundle/contents/recipe/{package_dotted}.{version}.json"
     }
 }
